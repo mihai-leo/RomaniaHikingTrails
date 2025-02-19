@@ -1,0 +1,23 @@
+[
+  {
+    "username": "admin",
+    "password": "admin123",
+    "phone": "1234567890",
+    "email": "admin@example.com",
+    "userType": "admin"
+  },
+  {
+    "username": "johndoe",
+    "password": "123",
+    "phone": "9876543210",
+    "email": "johndoe@example.com",
+    "userType": "user"
+  },
+  {
+    "username": "janedoe",
+    "password": "welcome2023",
+    "phone": "5551234567",
+    "email": "janedoe@example.com",
+    "userType": "addingUser"
+  }
+]

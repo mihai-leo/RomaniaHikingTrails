@@ -1,0 +1,39 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#15514F">
+
+    <!-- Difficulty Filter -->
+
+
+    <!-- RecyclerView for Trails -->
+    <ImageView
+            android:layout_width="153dp"
+            android:layout_height="127dp" app:srcCompat="@drawable/b3e101ee_4713_411e_ac7c_25b970ba17c6"
+            android:id="@+id/imageView12"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.449"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/spinnerDifficulty" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="100dp"/>
+    <Spinner
+            android:id="@+id/spinnerDifficulty"
+            android:layout_width="127dp"
+            android:layout_height="42dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toBottomOf="@+id/imageView12"
+            app:layout_constraintVertical_bias="0.5" app:layout_constraintBottom_toTopOf="@+id/recyclerViewTrails"/>
+    <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewTrails"
+            android:layout_width="410dp"
+            android:layout_height="582dp"
+            android:padding="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/spinnerDifficulty"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintVertical_bias="0.5"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

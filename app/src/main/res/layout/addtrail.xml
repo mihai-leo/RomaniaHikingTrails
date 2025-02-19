@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
+                                                   xmlns:tools="http://schemas.android.com/tools"
+                                                   android:layout_width="match_parent"
+                                                   android:layout_height="match_parent" android:background="#B2AEA9">
+
+    <EditText
+            android:layout_width="231dp"
+            android:layout_height="38dp"
+            android:inputType="text"
+            android:text="Long: 23.586986919738116 E"
+            android:ems="10"
+            android:id="@+id/editTextText5"
+            android:textSize="12dp" android:textColor="#194946" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText3" app:layout_constraintVertical_bias="0.5"
+            app:layout_constraintBottom_toTopOf="@+id/button4"/>
+    <EditText
+            android:layout_width="231dp"
+            android:layout_height="38dp"
+            android:inputType="text"
+            android:text="Lat: 46.77307566686305 N"
+            android:ems="10"
+            android:id="@+id/editTextText3"
+            android:textSize="12dp" android:textColor="#184843" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editTextText2" app:layout_constraintVertical_bias="0.5"
+            app:layout_constraintBottom_toTopOf="@+id/editTextText5"/>
+    <ImageView
+            android:layout_width="351dp"
+            android:layout_height="366dp" app:srcCompat="@drawable/b3e101ee_4713_411e_ac7c_25b970ba17c6"
+            android:id="@+id/imageView"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.5" app:layout_constraintBottom_toTopOf="@+id/editTextText2"/>
+    <Button
+            android:text="Start"
+            android:layout_width="200dp"
+            android:layout_height="50dp" android:id="@+id/button4"
+            android:autoText="false" android:textSize="15sp"
+            android:backgroundTint="#18514F" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@+id/editTextText5"
+            app:layout_constraintVertical_bias="0.5"/>
+    <TextView
+            android:text="Map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView5" tools:layout_editor_absoluteY="86dp"
+            tools:layout_editor_absoluteX="191dp" tools:ignore="MissingConstraints"/>
+    <EditText
+            android:layout_width="231dp"
+            android:layout_height="38dp"
+            android:inputType="text"
+            android:text="Dstance: 2002m"
+            android:ems="10"
+            android:id="@+id/editTextText2"
+            android:textSize="12dp" android:textColor="#17524E" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.5" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" app:layout_constraintVertical_bias="0.5"
+            app:layout_constraintBottom_toTopOf="@+id/editTextText3"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
